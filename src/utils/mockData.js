@@ -1,0 +1,36 @@
+export const restaurantList = [
+    {
+    name: "BurgerKing",
+    rating: "4.5",
+    cuisines: "Burger American",
+    location: "Chandni chowk",
+    deliveryTime: "45mins",
+    imageId : "jswcrcn3gafz7hderavn",
+  },
+    {
+    name: "SethJi",
+    rating: "3.5",
+    cuisines: "Marathi",
+    location: "Chandne chowk",
+    deliveryTime: "40mins",
+    imageId : "2b4f62d606d1b2bfba9ba9e5386fabb7",
+  },
+    {
+    name: "BurgerKing",
+    rating: "4.5",
+    cuisines: "Burger American",
+    location: "Chandni chowk",
+    deliveryTime: "45mins",
+    imageId : "jswcrcn3gafz7hderavn",
+  },
+    {
+    name: "SethJi",
+    rating: "3.5",
+    cuisines: "Marathi",
+    location: "Chandne chowk",
+    deliveryTime: "40mins",
+    imageId : "2b4f62d606d1b2bfba9ba9e5386fabb7",
+  }
+];
+
+export const imageUrl = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";

@@ -1,110 +1,31 @@
-import { FaStar } from "react-icons/fa";
+import { Card } from "./Card";
+import { restaurantList } from "../utils/mockData";
 
 
 export const RestaurantCards = () => {
+    // const restaurantList = [
+    //     {
+    //     name: "BurgerKing",
+    //     rating: "4.5",
+    //     cuisines: "Burger American",
+    //     location: "Chandni chowk",
+    //     deliveryTime: "45mins",
+    //     imageId : "jswcrcn3gafz7hderavn",
+    //   },
+    //     {
+    //     name: "SethJi",
+    //     rating: "3.5",
+    //     cuisines: "Marathi",
+    //     location: "Chandne chowk",
+    //     deliveryTime: "40mins",
+    //     imageId : "2b4f62d606d1b2bfba9ba9e5386fabb7",
+    //   }
+    // ];
     return(
         <>
-         <div className="restaurant-cards">
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-            <div className="cards">
-                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jswcrcn3gafz7hderavn"  alt="" />
-                <div className="hotel-info">
-                <h2>Burger King</h2>
-                <span><FaStar />3.8 | 45 mins</span>
-                <span>Cuisines</span>
-                <span>Chandni Chowk</span>
-                </div>
-            </div>
-        </div>
+         {/* <div className="restaurant-cards">
+            {restaurantList.map(restaurant => <Card resDetails={restaurant}/>)}
+        </div> */}
         </>
     )
 }
