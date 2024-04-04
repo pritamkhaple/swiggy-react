@@ -1,5 +1,5 @@
-import { Card } from "./Card";
-import { restaurantList } from "../utils/mockData";
+// import { Card } from "./Card";
+// import { restaurantList } from "../utils/mockData";
 
 
 export const RestaurantCards = () => {

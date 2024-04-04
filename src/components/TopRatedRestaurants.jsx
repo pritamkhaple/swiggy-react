@@ -1,7 +1,7 @@
 // import { restaurantList } from "../utils/mockData"
 
 export const TopRatedRestaurants = (props) => {
-    console.log(props)
+    // console.log(props)
 
     function filterRestaurants () {
         props.filter();

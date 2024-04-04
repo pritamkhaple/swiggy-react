@@ -25,8 +25,8 @@
 }
 
 .search-container{
-  width: 80%;
-  margin: 1rem auto;
+  /* width: 80%;
+  margin: 1rem auto; */
   display: flex;
   /* justify-content: center; */
   align-items: flex-start;
@@ -73,4 +73,11 @@
   background-color: black;
   color: aqua;
   padding: 2rem;
+}
+
+.flx-head{
+  display: flex;
+  width: 80%;
+  margin: 0.5rem auto;
+  gap: 5rem;
 }

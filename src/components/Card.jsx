@@ -3,22 +3,22 @@ import { imageUrl } from "../utils/mockData";
 
 export const Card = (props) => {
   // obj destructring
-  const {name, rating, deliveryTime, cuisines,location, imageId} = props.resDetails;
+  const {name, avgRating, deliveryTime, cuisines, locality, cloudinaryImageId} = props.resDetails;
 
   return (
     <div className="cards">
       <img
-        src={`${imageUrl}${imageId}`}
+        src={`${imageUrl}${cloudinaryImageId}`}
         alt=""
       />
       <div className="hotel-info">
         <h2>{name}</h2>
         <span>
           <FaStar />
-          {rating} | {deliveryTime}
+          {avgRating} | {deliveryTime}
         </span>
         <span>{cuisines}</span>
-        <span>{location}</span>
+        <span>{locality}</span>
       </div>
     </div>
   );
